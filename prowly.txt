@@ -92,3 +92,37 @@ If initial conditions are met, table will be displayed.
 
 Test status: 
 passed
+
+
+
+Test scenario 2: searching the word "prowly" using Google.com, filtering by date
+
+Test case 2.1: filtering by date "Last year"
+
+Environment: 
+- browser Google Chrome 91.0.4472.164 with default preferences 
+- macOS Big Sur 11.4
+
+Initial conditions: 
+- access to the Internet
+- website https://google.com was visited before and the cookie policy was accepted
+
+Test data: 
+- word: Prowly
+- period: Last year
+
+Steps: 
+1) open the browser 
+2) go to https://google.com website
+3) enter phrase "Prowly"
+4) click search button
+5) click "Tools" and choose "Last year"
+
+Expected result: 
+A different links related to the Prowly company should be displayed. All the content should be created or updated within last year. Also paid contents outside of chosen period might be displayed.
+
+Final conditions:
+If initial conditions are met, links will be displayed.
+
+Test status: 
+passed
