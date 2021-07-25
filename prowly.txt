@@ -126,3 +126,34 @@ If initial conditions are met, links will be displayed.
 
 Test status: 
 passed
+
+
+Test case 2.2: filtering by date "Date range 1 January 2016 - 31 March 2016"
+
+Environment: 
+- browser Google Chrome 91.0.4472.164 with default preferences 
+- macOS Big Sur 11.4
+
+Initial conditions: 
+- access to the Internet
+- website https://google.com was visited before and the cookie policy was accepted
+
+Test data: 
+- word: Prowly
+- period: Date range 1 January 2016 - 31 March 2016
+
+Steps: 
+1) open the browser 
+2) go to https://google.com website
+3) enter phrase "Prowly"
+4) click search button
+5) click "Tools" and choose "Date range 1 January 2016 - 31 March 2016"
+
+Expected result: 
+A different links related to the Prowly company should be displayed, first link should forward to the "company news". Also paid contents outside of chosen period might be displayed.
+
+Final conditions:
+If initial conditions are met, links will be displayed.
+
+Test status: 
+passed
