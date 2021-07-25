@@ -30,3 +30,34 @@ If initial conditions are met and cookie policy is accepted, map and bar with in
 
 Test status: 
 passed
+
+
+Test case 1.2: filtering by category "Graphics"
+
+Environment: 
+- browser Google Chrome 91.0.4472.164 with default preferences 
+- macOS Big Sur 11.4
+
+Initial conditions: 
+- access to the Internet
+- website https://google.com was visited before and the cookie policy was accepted
+
+Test data: 
+- word: Prowly
+- content type: Graphics
+
+Steps: 
+1) open the browser 
+2) go to https://google.com website
+3) enter phrase "Prowly"
+4) click search button
+5) click Graphics category
+
+Expected result: 
+A different pictures related to the company Prowly should be displayed, for example Prowly Logo.
+
+Final conditions:
+If initial conditions are met, pictures will be displayed.
+
+Test status: 
+passed
