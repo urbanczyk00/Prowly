@@ -61,3 +61,34 @@ If initial conditions are met, pictures will be displayed.
 
 Test status: 
 passed
+
+
+Test case 1.3: filtering by category "News"
+
+Environment: 
+- browser Google Chrome 91.0.4472.164 with default preferences 
+- macOS Big Sur 11.4
+
+Initial conditions: 
+- access to the Internet
+- website https://google.com was visited before and the cookie policy was accepted
+
+Test data: 
+- word: Prowly
+- content type: News
+
+Steps: 
+1) open the browser 
+2) go to https://google.com website
+3) enter phrase "Prowly"
+4) click search button
+5) click News category
+
+Expected result: 
+A table with news related to the company Prowly should be displayed.
+
+Final conditions:
+If initial conditions are met, table will be displayed.
+
+Test status: 
+passed
