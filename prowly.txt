@@ -1,0 +1,32 @@
+Test scenario 1: searching the word "prowly" using Google.com, filtering by content categories
+
+Test case 1.1: filtering by category "Maps"
+
+Environment: 
+- browser Google Chrome 91.0.4472.164 with default preferences 
+- macOS Big Sur 11.4
+
+Initial conditions: 
+- access to the Internet
+- website https://google.com wasn't visited before
+
+Test data: 
+- word: Prowly
+- content type: Maps
+
+Steps: 
+1) open the browser 
+2) go to https://google.com website
+3) accept cookie policy
+4) enter phrase "Prowly"
+5) click search button
+6) click Maps category
+
+Expected result: 
+A map should be displayed with the Prowly headquarters marked - ul. Madalińskiego 71/1 in Warsaw. A photo and general information about the company should be visible on the left side bar.
+
+Final conditions:
+If initial conditions are met and cookie policy is accepted, map and bar with information will be displayed.
+
+Test status: 
+passed
